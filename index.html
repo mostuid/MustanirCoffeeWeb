@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mustanir Coffee</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="assets/Logo-Icon.png">
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Our Story</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About Us</a></li>
+</ul>
+
+<div class="menu-btn">☰</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-overlay"></div>
+
+<h1>Mustanir</h1>
+<h2>Coffee</h2>
+
+<img src="assets/Product.png" id="coffeePack" class="product">
+
+<img src="assets/Coffee1.png" class="bean bean1">
+<img src="assets/Coffee2.png" class="bean bean2">
+<img src="assets/Coffee3.png" class="bean bean3">
+<img src="assets/Coffee4.png" class="bean bean4">
+<img src="assets/Coffee5.png" class="bean bean5">
+<img src="assets/Coffee6.png" class="bean bean6">
+
+</section>
+
+<section class="benefits">
+
+<div class="benefit-grid">
+
+<div class="product-placeholder"></div>
+
+<div class="benefit-content">
+
+<h2>
+3 Kelebihan
+<br>
+Dari Kopi Gayo
+</h2>
+
+<div class="benefit-card">
+<span>1</span>
+<p>
+Kandungan asam lebih rendah sehingga lebih ramah bagi lambung.
+</p>
+</div>
+
+<div class="benefit-card">
+<span>2</span>
+<p>
+Aroma kuat dengan body creamy dan aftertaste yang khas.
+</p>
+</div>
+
+<div class="benefit-card">
+<span>3</span>
+<p>
+Kaya antioksidan alami dari dataran tinggi Gayo.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq-section">
+
+<h2>Pertanyaan Umum</h2>
+
+<div id="faqContainer"></div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+Siap Menikmati Kopi Gayo Premium?
+</h2>
+
+<p>
+Konsultasikan kebutuhan kopi Anda bersama tim Mustanir Coffee.
+</p>
+
+<a href="https://wa.me/6288201631264" target="_blank">
+Konsultasi Gratis
+</a>
+
+</section>
+
+<footer>
+
+<img src="assets/Logo-Icon.png">
+
+<p>
+© 2026 Mustanir Coffee
+</p>
+
+</footer>
+
+<script src="faq-data.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+<script>
+const lenis = new Lenis();
+
+function raf(time){
+lenis.raf(time);
+requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+</script>
+
+</body>
+</html>
